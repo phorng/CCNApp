@@ -1,16 +1,12 @@
 body
 {
     font: Arial, sans-serif;
+
 }
 
 .buttonArea,
 .footerText,
-#geoLocationContainer,
-#helloWorldInput,
-#helloWorldText
-{
-    text-align: center;
-}
+
 
 #txtName
 {
@@ -23,4 +19,223 @@ body
     background:white;
     color: black;
     padding: 7px;
+}
+
+#login-screen .km-content{
+    background-image: url('img/bg2.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding: 1.5em 2em 0 0;
+    
+}
+
+#LoginLogo
+{
+    border: 1px solid black;
+    position: static;
+    height: 8.4em;
+    margin-left: 10.6%;
+    margin-top:10%;
+}
+
+#LoginForm
+{
+    margin-top: 5%;
+    margin-left: 10.6%;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.LoginElement
+{
+
+    border: 1px inset black;
+    background-color: white;
+    width: 95%;
+    margin-bottom: 0.15em;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.LoginOption
+{
+    margin-top: 1.2em;
+    margin-bottom: 0.75em;
+    margin-left: 0.3em;
+}
+
+#LoginButton
+{
+    background-color: rgb(27,184,255);
+    font-size: 22px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: -2.4em;
+    margin-left: 7.2em;
+}
+
+
+#search-box {
+    position: relative;
+    width: 100%;
+    margin-top: 0.4em;
+    font-family: sans-serif;
+}
+
+#search-form 
+{
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#search-text 
+{
+    font-size: 16px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"]
+{
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 80px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: rgb(72,133,236);
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+#summary-top
+{
+    text-align: center;
+    width: 100%;
+    margin-top: -0.3em;
+    margin-bottom: 0.2em;
+}
+
+.summary-button
+{
+    width: 40%;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: white;
+    
+}
+#status-field
+{
+    width:100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+#summaryview
+{
+    border: 1px solid rgb(220,220,220);
+    margin-top: 2%;
+}
+.summary-element
+{
+    position: relative;
+    height: 2.5em;
+
+}
+
+.awb-number
+{
+    font-size: 16px;
+    position: absolute;
+}
+
+.fwb
+{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 13.5em;
+    margin-top: -1em;
+    
+}
+
+.foh
+{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 13.5em;
+    margin-top: 0.6em;
+}
+
+.time-date
+{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 20.5em;
+    margin-top: -1em;
+}
+
+.status
+{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 20.5em;
+    margin-top: 0.6em;
+}
+
+#detail-button
+{
+    padding: 0.5em;
+    margin-left: 1.1em;
+    margin-top: 1.5em;
+}
+.detail-button
+{
+    font-size: 14.5px;
+    width: 38%;
+}
+
+.popoverelement
+{
+    margin-left: 1.2em;
+    margin-top: 0.7em;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#Pcs
+{
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Wt
+{
+    width: 42%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
 }
